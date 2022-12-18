@@ -5,7 +5,7 @@
 
 Console.Write("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int startnumber = number * 0 + 2;
+int startnumber = 2;
 while (number >= startnumber)
 {
     Console.Write($"{startnumber}, ");

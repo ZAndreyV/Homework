@@ -6,13 +6,12 @@
 
 Console.Write("Введите первое целое число: ");
 int firstnumber = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите первое целое число: ");
+Console.Write("Введите второе целое число: ");
 int secondnumber = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите первое целое число: ");
+Console.Write("Введите третье целое число: ");
 int thirdnumber = Convert.ToInt32(Console.ReadLine());
 int max = firstnumber;
 if (secondnumber > max) max = secondnumber;
 if (thirdnumber > max) max = thirdnumber;
-{
-    Console.WriteLine($"max = {max}");
-}
+Console.WriteLine($"max = {max}");
+
